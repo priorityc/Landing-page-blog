@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  color: #343a40;
+  font-family: "Inter" sans-serif;
+  font-size: 1rem;
+}
+/* Styling the nav bar */
+.nav-bar ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  font-size: 18px;
+  gap: 70px;
+  background-color: #343a40;
+  color: white;
+  margin-bottom: 30px;
+}
+.navigation li {
+  cursor: pointer;
+  color: tomato;
+}
+
+/* Styling the pic and heading */
+.top-cont {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  gap: 80px;
+  background-color: #ffdca8;
+  border-radius: 5px;
+  margin-bottom: 60px;
+  padding: 50px;
+}
+.right-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+
+  flex: 0 0 500px;
+}
+.instructor {
+  max-width: 400px;
+  border-radius: 5px;
+}
+.salad {
+  width: 150px;
+  position: absolute;
+  right: 53%;
+  bottom: 5%;
+  border-radius: 5px;
+}
+.right-cont h1 {
+  font-size: 3.5em;
+  color: #f03e3e;
+}
+.right-cont p {
+  font-size: 25px;
+}
+.list {
+  list-style: none;
+  font-size: 17px;
+  line-height: 1.4;
+}
+#fname,
+#lname {
+  width: 200px;
+  height: 30px;
+  border: 1px solid grey;
+}
+#submit,
+.submit {
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: #f03e3e;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  border: none;
+}
+#submit:hover {
+  cursor: pointer;
+  background-color: #fa5252;
+}
+/* Styling pricing content */
+.bottom-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 90px;
+}
+.pricing-list {
+  display: flex;
+  gap: 60px;
+  margin-bottom: 90px;
+  line-height: 1.5;
+}
+.plan-three {
+  background-color: #ffdca8;
+}
+.plan-free,
+.plan-three,
+.plan-six {
+  padding: 40px;
+}
+.plan-three {
+  box-shadow: 0 0 20px rgb(111, 108, 108);
+}
+
+.price {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.buy-it {
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  margin-bottom: 20px;
+}
+.icon {
+  width: 25px;
+}
+#head-two {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.footer-cont {
+  background-color: #ffdca8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  position: relative;
+}
+.serum {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.creams {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.cosmetics {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.join-insta {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 40px;
+  background-color: #343a40;
+  color: white;
+}
+.insta {
+  width: 200px;
+  height: 200px;
+}
+.plus {
+  width: 50px;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30%;
+  margin-left: 20px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background: #881241;
+  color: white;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 600px) {
+  .pricing-list {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+  }
+  .top-cont {
+    width: 80%;
+  }
+  .right-cont {
+    width: 30%;
+  }
+}

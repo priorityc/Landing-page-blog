@@ -1,0 +1,337 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+}
+/* Styling the nav bar */
+.navigation {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  font-size: 18px;
+  gap: 50px;
+  background-color: antiquewhite;
+}
+.navigation li {
+  cursor: pointer;
+  color: tomato;
+}
+.logo {
+  width: 40%;
+  height: auto;
+  border-radius: 3px;
+  margin-left: 120px;
+  margin-top: 50px;
+}
+/* The top container whit the text */
+.right-cont h1 {
+  color: #f03e3e;
+}
+.top-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin-bottom: 80px;
+  position: relative;
+}
+.text-absolute {
+  color: rgb(89, 87, 87);
+  margin-left: 10px;
+  padding: 10px;
+  margin-top: 90px;
+  border-radius: 3px;
+}
+.text-absolute h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.h1 {
+  color: #f03e3e;
+}
+.text-absolute p {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+.list {
+  margin-bottom: 20px;
+}
+.list li {
+  line-height: 1.6;
+  font-style: italic;
+  font-weight: bold;
+  color: green;
+  margin-left: 10px;
+}
+.h2 {
+  margin-top: 30px;
+}
+.percentage {
+  position: absolute;
+  right: 45%;
+  bottom: 40%;
+  color: white;
+  font-size: 4rem;
+  border-radius: 5px;
+  background-color: #ea0f67;
+  padding: 10px;
+  width: 180px;
+  height: 100px;
+}
+span {
+  font-size: 16px;
+}
+#submit {
+  margin-top: 20px;
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  font-weight: bold;
+  color: tomato;
+  border: none;
+  background-color: rgba(117, 169, 117, 0.477);
+}
+.anchor {
+  text-decoration: none;
+}
+#email {
+  width: 200px;
+  height: 30px;
+}
+/* styling the priceing-box */
+
+.priceing-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 120px;
+  gap: 30px;
+  color: rgb(79, 77, 77);
+}
+
+.box-one {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex: 0 0 300px;
+  padding: 50px 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transition: calc(1, 2);
+  display: relative;
+  background-color: antiquewhite;
+}
+.box-one button {
+  color: white;
+  background-color: rgba(0, 128, 0, 0.459);
+  border-radius: 3px;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 150px;
+  height: 50px;
+  border: none;
+}
+.box-one button:hover {
+  background-color: #ff6b6b;
+  cursor: pointer;
+}
+.price-three {
+  position: absolute;
+  left: 53%;
+  background-color: #ea0f67;
+  color: white;
+  width: 90px;
+  height: 40px;
+  font-size: 27px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+.first-pic {
+  width: 190px;
+  height: 280px;
+
+  border-radius: 3px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.second-pic {
+  width: 190px;
+  height: auto;
+}
+.third-pic {
+  width: 190px;
+  height: auto;
+}
+.forth-pic {
+  width: 190px;
+  height: auto;
+}
+.features-icon {
+  stroke: green;
+  width: 32px;
+  height: 32px;
+  margin-bottom: 2s0px;
+}
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-basis: 300px;
+}
+.gallery h3 {
+  color: tomato;
+  font-weight: bold;
+  width: 100%;
+}
+.desc {
+  font-size: 17px;
+  color: rgb(59, 58, 58);
+  width: 80%;
+}
+/* The bottom flex conteiner */
+.bottom-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+.aside-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+
+  margin-left: 100px;
+}
+.left-aboutme {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  width: 60%;
+  border-radius: 3px;
+  padding: 30px 40px;
+  margin: 20px auto;
+  background-color: antiquewhite;
+}
+.left-aboutme h2 {
+  margin-bottom: 20px;
+}
+.aside-left h2 {
+  color: green;
+}
+.aboutme-pic {
+  width: 150px;
+  height: auto;
+  border-radius: 3px;
+}
+#aboutme-btn {
+  width: 150px;
+  height: 40px;
+  color: white;
+  background-color: tomato;
+  border: none;
+  border-radius: 3px;
+  padding-top: 5px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+#aboutme-btn:hover {
+  background-color: #ff6b6b;
+  cursor: pointer;
+}
+.join-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+
+  gap: 40px;
+  margin-top: 90px;
+  margin-left: 120px;
+  width: 50%;
+}
+.instagram {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-end;
+  gap: 10px;
+  background-color: rgba(0, 128, 0, 0.459);
+  border-radius: 10px;
+  width: 400px;
+  padding: 30px;
+}
+.join-group h2 {
+  border-bottom: 2px solid rgb(156, 28, 5);
+  font-size: 2rem;
+  color: tomato;
+}
+.blogger {
+  width: 100px;
+  border-radius: 30%;
+  border: solid 5px green;
+  padding: 20px 10px;
+}
+.num {
+  display: flex;
+  flex-direction: column;
+}
+.fa {
+  padding: 10px;
+
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30%;
+  margin-left: 20px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-instagram::before {
+  background: #ea0f67;
+  color: white;
+  font-size: 60px;
+}
+.left-aboutme {
+  display: flex;
+}
+
+.desc {
+  width: 40%;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30%;
+  margin-left: 20px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+footer {
+  background-color: antiquewhite;
+  height: 50px;
+  color: grey;
+  margin-top: 50px;
+  text-align: center;
+}

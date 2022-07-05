@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  /* styling the navbar*/
+}
+
+body {
+  width: 100%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(90, 89, 89);
+  background-color: rgba(174, 239, 218, 0.203);
+}
+/* / #ff6b6b;  antiquewhite;*/
+.pop-up {
+  display: flex;
+  width: 700px;
+
+  align-items: flex-start;
+  padding: 20px;
+  justify-content: space-betwean;
+  gap: 40px;
+  margin: auto;
+  background-color: antiquewhite;
+  margin-top: 50px;
+}
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+.col-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+input {
+  width: 300px;
+  height: 32px;
+  border: #ffa8a8;
+}
+
+img {
+  width: 300px;
+}
+botton {
+  width: 160px;
+  height: 38px;
+  text-align: center;
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 20px 6px;
+}
+botton:hover {
+  cursor: pointer;
+  background-color: #ffa8a8;
+}
+/* icons */
+.card {
+  width: 24px;
+}
